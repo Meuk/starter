@@ -2,18 +2,30 @@
 # Here we describe every software we may want to install
 - hosts: all
   roles:
-  - role: osxc.packages
+    - role: osxc.packages
     brew_taps:
-    - caskroom/fonts
+        - caskroom/fonts
     brew_packages:
-    - git
-    - zsh
-    - vim
-    - the_silver_searcher
-    - ctags
-    - reattach-to-user-namespace
-    - tmux
+        - git
+        - zsh
+        - vim
+        - the_silver_searcher
+        - ctags
+        - reattach-to-user-namespace
+        - tmux
     cask_packages:
-    - font-inconsolata-for-powerline
-    - iterm2
-    - macvim
+        - font-inconsolata-for-powerline
+        - iterm2
+        - macvim
+        - dropbox
+        - firefox
+        - flash
+        - google-chrome
+        - google-chrome-canary
+        - 1password
+        - sequel-pro
+        - spotify
+        - vagrant
+        - virtualbox
+        - phpstorm
+        - franz
