@@ -2,7 +2,7 @@
 # Here we describe every software we may want to install
 - hosts: all
   roles:
-  - role: osxc.packages
+  - role: Meuk.osxc-packages
     brew_taps:
         - caskroom/fonts
         - caskroom/cask
